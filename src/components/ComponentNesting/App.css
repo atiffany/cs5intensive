@@ -4,6 +4,7 @@
 
 .App-logo {
   height: 1.5em;
+  float: bottom;
 }
 
 .App-header {
@@ -26,19 +27,19 @@
   to { transform: rotate(360deg); }
 }
 .Tweet {
-  width: 50%;
+  width: max-content;
   text-align: left;
   margin: 3em;
   border: .25em solid black;
   padding: .5em;
 }
 .inline {
-  display: flex;
+  display: inline;
 }
 .inline--item {
-  flex: 1;
-  flex-direction: row;
-  justify-content: space-around;
+  display: inline;
+  color: blue;
+  margin: 2em;
 }
 
 .nameSection {
@@ -46,9 +47,23 @@
   font-size: 1.5em;
 }
 .name {
-  font-weight: 200;
-  margin: .5em;
+  font-weight: 300;
+  margin: 0 .5em .5em 0;
 }
 .handle {
   font-weight: 150;
+}
+
+.tweetText {
+  white-space: pre;
+}
+.commentText {
+  color: black;
+  width: 100%;
+}
+.commentText--user {
+  font-style: bold;
+}
+.commentText--text {
+  font-style: normal;
 }
