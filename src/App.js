@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Greeting from './components/FunctionalComponent/Greeting';
 import Blanket from './components/ClassComponentWithProps/Blanket';
 import Children from './components/NestedComponentsWithState/Children';
+import Twitter from './components/ComponentNesting/Twitter';
 
 class App extends Component {
   render() {
@@ -13,6 +13,7 @@ class App extends Component {
         <Greeting />
         <Blanket blanket = "turtle" />
         <Children />
+        <Twitter />
       </div>
     );
   }
