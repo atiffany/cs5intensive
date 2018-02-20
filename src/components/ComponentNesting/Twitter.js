@@ -5,7 +5,7 @@ tweet filler (text and link) COM
 comment, retweet, heart, share--these are icons 4 COM
 */
 import React from 'react';
-import logo from './logo.svg';
+import './App.css';
 import Name from './Name';
 import TweetFiller from './TweetFiller';
 import Comment from './Comment';
@@ -20,14 +20,15 @@ class Twitter extends React.Component{
     }
     render() {
         return(
-            <div>
-                <img src = {logo}/>
+            <div className="Tweet">
                 <Name />
                 <TweetFiller />
-                <Comment />
-                <Retweet />
-                <Heart />
-                <Share />
+                <span class = "inline">
+                    <Comment />
+                    <Retweet />
+                    <Heart />
+                    <Share />
+                </span>
             </div>
         );
     }

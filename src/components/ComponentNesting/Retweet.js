@@ -1,8 +1,9 @@
 import React from 'react';
+import './App.css';
 
 const Retweet = (props) => {
     return (
-        <div>Retweet</div>
+        <div className = "inline--item">Retweet</div>
     );
 }
 export default Retweet;

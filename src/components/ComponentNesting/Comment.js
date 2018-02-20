@@ -1,8 +1,9 @@
 import React from 'react';
+import './App.css';
 
 const Comment = (props) => {
     return (
-        <div>Comment</div>
+        <div className = "inline--item">Comment</div>
     );
 }
 export default Comment;

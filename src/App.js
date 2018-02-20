@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import Greeting from './components/FunctionalComponent/Greeting';
 import Blanket from './components/ClassComponentWithProps/Blanket';
 import Children from './components/NestedComponentsWithState/Children';

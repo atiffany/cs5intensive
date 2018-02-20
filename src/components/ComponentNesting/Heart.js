@@ -1,8 +1,9 @@
 import React from 'react';
+import './App.css';
 
 const Heart = (props) => {
     return (
-        <div>Heart</div>
+        <div className = "inline--item">Heart</div>
     );
 }
 export default Heart;
