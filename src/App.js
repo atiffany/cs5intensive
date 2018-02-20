@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Greeting from './components/Greeting';
-import Blanket from './components/Blanket';
-import Children from './components/Children';
+import Greeting from './components/FunctionalComponent/Greeting';
+import Blanket from './components/ClassComponentWithProps/Blanket';
+import Children from './components/NestedComponentsWithState/Children';
 
 class App extends Component {
   render() {
